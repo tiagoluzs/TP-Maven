@@ -5,6 +5,7 @@ import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVRecord;
 import java.io.IOException;
 import java.io.Reader;
+import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
@@ -21,8 +22,9 @@ public class App {
     private static final String SAMPLE_CSV_FILE_PATH = "veiculos.dat";
 
     public static void main(String[] args) throws IOException {
+
         try (
-            Reader reader = Files.newBufferedReader(Paths.get(SAMPLE_CSV_FILE_PATH));
+            Reader reader = Files.newBufferedReader(Paths.get("src/main/java/br/pucrs/tp/" + SAMPLE_CSV_FILE_PATH));
             CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT);
         ) {
             for (CSVRecord csvRecord : csvParser) {
