@@ -1,6 +1,6 @@
 # TP-Maven
 
-## Grupod
+## Grupo
 
 * Tiago Luz
 * Rauf Rodrigues
