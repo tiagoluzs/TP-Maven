@@ -1,9 +1,16 @@
 # TP-Maven
 
-Grupo:
+## Grupod
 
-Tiago Luz
+* Tiago Luz
+* Rauf Rodrigues
+* Lennon da Silva Rocha
 
-Rauf Rodrigues
+## Executando a aplicação
+É possível executar a aplicação tanto na m
 
-Lennon da Silva Rocha
+### Sem docker
+É necessário instalar o Java 14 e o Maven instalados na máquina destino. Para compilar o projeto, execute `maven compile`; para executar, `maven exec:java`.
+
+### Com docker
+Caso possua o Docker e o Docker Compose instalado, é possível executar a aplicação somente digitando `docker-compose up` na raiz do projeto.
