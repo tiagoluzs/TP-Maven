@@ -22,6 +22,7 @@ public class App {
     private static final String SAMPLE_CSV_FILE_PATH = "veiculos.dat";
 
     public static void main(String[] args) throws IOException {
+        // alteração para teste e commit por Rauf
 
         try (
             Reader reader = Files.newBufferedReader(Paths.get("src/main/java/br/pucrs/tp/" + SAMPLE_CSV_FILE_PATH));
