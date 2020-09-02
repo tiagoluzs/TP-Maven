@@ -23,6 +23,7 @@ public class App {
 
     public static void main(String[] args) throws IOException {
         // alteração para teste e commit por Rauf
+        System.out.println("Trabalho em Grupo: Tiago, Rauf, Lennon");
 
         try (
             Reader reader = Files.newBufferedReader(Paths.get("src/main/java/br/pucrs/tp/" + SAMPLE_CSV_FILE_PATH));
