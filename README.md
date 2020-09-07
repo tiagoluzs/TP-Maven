@@ -7,7 +7,7 @@
 * Lennon da Silva Rocha
 
 ## Executando a aplicação
-É possível executar a aplicação tanto na m
+É possível executar a aplicação tanto na mão quanto através do docker. Verificar abaixo ambas opções.
 
 ### Sem docker
 É necessário instalar o Java 14 e o Maven instalados na máquina destino. Para compilar o projeto, execute `maven compile`; para executar, `maven exec:java`.
